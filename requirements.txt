@@ -1,0 +1,5 @@
+# Verified: CPython 3.13.5; HiGHS 1.8.0 (bundled in SciPy).
+numpy==2.3.5
+scipy==1.17.0
+matplotlib==3.10.8
+networkx==3.6.1

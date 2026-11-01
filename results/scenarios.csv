@@ -1,0 +1,6 @@
+scenario,status,objective_rub,iterations
+base,optimal,670.254,42
+congestion,optimal,688.5960000000001,44
+closure,optimal,722.002,45
+demand_plus_20,optimal,799.6298,46
+stress,optimal,865.6018,46

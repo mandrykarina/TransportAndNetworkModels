@@ -1,0 +1,11 @@
+test_base_solution (test_lab.TestWarehouses.test_base_solution) ... ok
+test_binding_arcs_exist (test_lab.TestWarehouses.test_binding_arcs_exist) ... ok
+test_flow_balance_violation_detected (test_lab.TestWarehouses.test_flow_balance_violation_detected) ... ok
+test_greedy_valid_and_not_better_than_lp (test_lab.TestWarehouses.test_greedy_valid_and_not_better_than_lp) ... ok
+test_scenarios_and_closed_route (test_lab.TestWarehouses.test_scenarios_and_closed_route) ... ok
+test_seed_and_scale (test_lab.TestWarehouses.test_seed_and_scale) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.029s
+
+OK

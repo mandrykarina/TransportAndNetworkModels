@@ -1,0 +1,22 @@
+{
+  "valid": true,
+  "violations": {
+    "negative_flow": -0.0,
+    "negative_stock": 0.0,
+    "arc_capacity": 0.0,
+    "storage_capacity": 0.0,
+    "node_balance": 7.105427357601002e-15
+  },
+  "max_violation": 7.105427357601002e-15,
+  "objective_rub": 799.6298,
+  "final_inventory_units": [
+    89.40000000000002,
+    27.000000000000014,
+    26.800000000000015,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

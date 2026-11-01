@@ -1,0 +1,6 @@
+HiGHS/scipy.optimize.linprog; Python 3.13.5, SciPy 1.17.0, NumPy 2.3.5
+base: solver=HiGHS/highs-ds; presolve=True; status=optimal; objective=670.254; iterations=42; message=Optimization terminated successfully. (HiGHS Status 7: Optimal)
+congestion: solver=HiGHS/highs-ds; presolve=True; status=optimal; objective=688.5960000000001; iterations=44; message=Optimization terminated successfully. (HiGHS Status 7: Optimal)
+closure: solver=HiGHS/highs-ds; presolve=True; status=optimal; objective=722.002; iterations=45; message=Optimization terminated successfully. (HiGHS Status 7: Optimal)
+demand_plus_20: solver=HiGHS/highs-ds; presolve=True; status=optimal; objective=799.6298; iterations=46; message=Optimization terminated successfully. (HiGHS Status 7: Optimal)
+stress: solver=HiGHS/highs-ds; presolve=True; status=optimal; objective=865.6018; iterations=46; message=Optimization terminated successfully. (HiGHS Status 7: Optimal)

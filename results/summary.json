@@ -1,0 +1,166 @@
+{
+  "base": {
+    "scenario": "base",
+    "status": "optimal",
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "iterations": 42,
+    "objective_rub": 670.254,
+    "validation": {
+      "valid": true,
+      "violations": {
+        "negative_flow": -0.0,
+        "negative_stock": 0.0,
+        "arc_capacity": 0.0,
+        "storage_capacity": 0.0,
+        "node_balance": 0.0
+      },
+      "max_violation": -0.0,
+      "objective_rub": 670.254,
+      "final_inventory_units": [
+        123.0,
+        77.0,
+        77.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "busiest_arc": {
+      "from": "W2",
+      "to": "W5",
+      "total_flow_units": 52.0,
+      "index": 18
+    },
+    "saturated_arc_weeks": [
+      "arc:2:3>4",
+      "arc:2:2>5",
+      "arc:3:2>5",
+      "arc:4:3>4",
+      "arc:4:2>5"
+    ],
+    "greedy": {
+      "valid": true,
+      "objective_rub": 670.254,
+      "seconds": 0.002307502000007844,
+      "gap_percent": 0.0
+    }
+  },
+  "congestion": {
+    "scenario": "congestion",
+    "status": "optimal",
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "iterations": 44,
+    "objective_rub": 688.5960000000001,
+    "validation": {
+      "valid": true,
+      "violations": {
+        "negative_flow": -0.0,
+        "negative_stock": 0.0,
+        "arc_capacity": 0.0,
+        "storage_capacity": 0.0,
+        "node_balance": 0.0
+      },
+      "max_violation": -0.0,
+      "objective_rub": 688.5960000000001,
+      "final_inventory_units": [
+        105.0,
+        95.0,
+        77.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "closure": {
+    "scenario": "closure",
+    "status": "optimal",
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "iterations": 45,
+    "objective_rub": 722.002,
+    "validation": {
+      "valid": true,
+      "violations": {
+        "negative_flow": -0.0,
+        "negative_stock": 0.0,
+        "arc_capacity": 0.0,
+        "storage_capacity": 0.0,
+        "node_balance": 0.0
+      },
+      "max_violation": -0.0,
+      "objective_rub": 722.002,
+      "final_inventory_units": [
+        71.0,
+        129.0,
+        77.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "demand_plus_20": {
+    "scenario": "demand_plus_20",
+    "status": "optimal",
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "iterations": 46,
+    "objective_rub": 799.6298,
+    "validation": {
+      "valid": true,
+      "violations": {
+        "negative_flow": -0.0,
+        "negative_stock": 0.0,
+        "arc_capacity": 0.0,
+        "storage_capacity": 0.0,
+        "node_balance": 7.105427357601002e-15
+      },
+      "max_violation": 7.105427357601002e-15,
+      "objective_rub": 799.6298,
+      "final_inventory_units": [
+        89.40000000000002,
+        27.000000000000014,
+        26.800000000000015,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "stress": {
+    "scenario": "stress",
+    "status": "optimal",
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "iterations": 46,
+    "objective_rub": 865.6018,
+    "validation": {
+      "valid": true,
+      "violations": {
+        "negative_flow": -0.0,
+        "negative_stock": 0.0,
+        "arc_capacity": 0.0,
+        "storage_capacity": 0.0,
+        "node_balance": 7.105427357601002e-15
+      },
+      "max_violation": 7.105427357601002e-15,
+      "objective_rub": 865.6018,
+      "final_inventory_units": [
+        21.40000000000001,
+        95.0,
+        26.800000000000015,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  }
+}
